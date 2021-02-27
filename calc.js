@@ -1,7 +1,7 @@
 
 function Taylor(/*in*/iCount)
 {
-    return 9;
+    return 8;
 }
 
 module.exports.Taylor = Taylor;
