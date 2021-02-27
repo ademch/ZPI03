@@ -2,6 +2,16 @@
 const assert = require('assert');
 const Calc = require('./calc.js');
 
-assert.equal(typeof Calc.Taylor, "function");
+describe('Taylor series', function ()
+{
+    t = Calc.Taylor(1);
+    it('should have a Taylor function defined', function ()
+    {
+        assert.equal(typeof Calc.Taylor, "function");
+    });
 
-var t = Calc.Taylor(1);
+    it('has to be equal to 10', function() {
+        assert.equal(Calc.Taylor(), 9);
+    });
+}
+);
