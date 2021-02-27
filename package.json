@@ -1,0 +1,19 @@
+{
+  "name": "zpi03",
+  "version": "1.0.0",
+  "description": "Components of Software Engineering",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ademch/ZPI03.git"
+  },
+  "author": "Anatoliy Demchyshyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ademch/ZPI03/issues"
+  },
+  "homepage": "https://github.com/ademch/ZPI03#readme"
+}
